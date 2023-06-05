@@ -19,7 +19,7 @@ import uuid, re
 from pystyle import Write,Colors
 from bs4 import BeautifulSoup
 from datetime import datetime
-os.system('title TOOL GỘP FRTVE-TOOL')
+os.system('title TOOL GỘP TUONGTACCHEO')
 
 time=datetime.now().strftime("%H:%M:%S")
 from pystyle import *
