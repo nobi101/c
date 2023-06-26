@@ -44,9 +44,9 @@ print("[•] Youtube: https://www.youtube.com/@TOOLFRIVE")
 print("┌─────┬────────────────────────────────────┬─────────┬─────────┐")
 print("│ STT │             MENU TOOL              │ STATUS  │ VERSION │")
 print("├─────┼────────────────────────────────────┼─────────┼─────────┤")
-print("│  1  │ TTC FACEBOOK PRO5                  │ OFFLINE  │  [1.0]  │")
+print("│  1  │ TTC FACEBOOK PRO5                  │ ONLINE  │  [1.0]  │")
 print("├─────┼────────────────────────────────────┼─────────┼─────────┤")
-print("│  2  │ TTC VIPIG                          │ OFFLINE  │  [1.0]  │")
+print("│  2  │ TTC VIPIG                          │ ONLINE  │  [1.0]  │")
 print("├─────┼────────────────────────────────────┼─────────┼─────────┤")
 print("│  3  │ TTC FACEBOOK                       │ OFFLINE │  [1.0]  │")
 print("├─────┼────────────────────────────────────┼─────────┼─────────┤")
@@ -58,11 +58,11 @@ chon = input("Nhập Lựa Chọn: ")
 os.system("cls" if os.name == "nt" else "clear")
 try:
         if chon == '1':
-                run = requests.get('https://raw.githubusercontent.com/nobi101/ttcpr5/main/ttcpr5.md').text
+                run = requests.get('https://raw.githubusercontent.com/nobi101/ttcpr5/main/ttcpr5.py').text
         elif chon == '2':
-                run = requests.get('https://raw.githubusercontent.com/nobi101/vipig/main/vipig.md').text
+                run = requests.get('https://raw.githubusercontent.com/nobi101/vipig/main/vipig.py').text
         elif chon == '3':
-                run = requests.get('https://raw.githubusercontent.com/nobi101/ttc/main/ttc.md').text
+                run = requests.get('https://raw.githubusercontent.com/nobi101/ttc/main/ttc.py').text
         elif chon == '4':
                 run = requests.get('https://raw.githubusercontent.com/nobi101/ttctiktok/main/ttctiktok.py').text
         elif chon == '5':
