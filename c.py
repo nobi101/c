@@ -66,7 +66,7 @@ try:
         elif chon == '4':
                 run = requests.get('https://raw.githubusercontent.com/nobi101/ttctiktok/main/ttctiktok.py').text
         elif chon == '5':
-                run = requests.get('https://raw.githubusercontent.com/nobi101/gop/main/gop.py').text
+                run = requests.get('https://raw.githubusercontent.com/nobi101/nokey/main/Nokey.py').text
         else:
                 run = print('Lựa Chọn Không Xác Định')
 except:
